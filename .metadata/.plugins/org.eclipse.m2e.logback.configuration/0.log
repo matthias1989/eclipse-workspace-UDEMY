@@ -5502,3 +5502,15 @@ java.lang.NullPointerException: null
 2018-07-26 17:47:11,010 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
 2018-07-26 17:47:11,014 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2018-07-26 17:47:11,033 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\mattstro\eclipse-workspace-UDEMY\spring-z-crm-rest-with-security\src\test\resources
+2018-07-27 13:16:14,877 [Worker-86] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-27 13:16:14,909 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Data\UDEMY-Spring-hibernate-tutorial\solution-code\06-maven\spring-hibernate-customer-tracker-with-maven\src\main\resources
+2018-07-27 13:16:14,913 [Worker-86] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-27 13:16:14,933 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Data\UDEMY-Spring-hibernate-tutorial\solution-code\06-maven\spring-hibernate-customer-tracker-with-maven\src\test\resources
+2018-07-27 13:30:07,666 [Worker-95] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-27 13:30:07,698 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Data\UDEMY-Spring-hibernate-tutorial\solution-code\06-maven\spring-hibernate-customer-tracker-with-maven\src\main\resources
+2018-07-27 13:30:07,701 [Worker-95] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-27 13:30:07,720 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Data\UDEMY-Spring-hibernate-tutorial\solution-code\06-maven\spring-hibernate-customer-tracker-with-maven\src\test\resources
+2018-07-27 13:34:10,714 [Worker-89] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-27 13:34:10,733 [Worker-89] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-27 13:34:10,738 [Worker-89] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-27 13:34:10,754 [Worker-89] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\mattstro\eclipse-workspace-UDEMY\spring-web-customer-tracker-with-security\src\test\resources
