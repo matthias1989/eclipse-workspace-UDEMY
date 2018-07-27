@@ -1,0 +1,16 @@
+package com.luv2code.springsecurity.demo.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.provisioning.UserDetailsManager;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+@RequestMapping("/register")
+public class RegistrationController {
+	@Autowired
+	private UserDetailsManager userDetailsManager;
+	
+	private PasswordEncoder passwordEncoder = new BCryptPasswordEncoder();
+
+}

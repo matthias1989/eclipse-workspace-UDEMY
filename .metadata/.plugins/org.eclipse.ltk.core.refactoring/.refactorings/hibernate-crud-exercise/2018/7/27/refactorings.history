@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;Employee.java&apos; to &apos;hibernate-crud-exercise/src/com.luv2code.hibernate.entity&apos;&#x0D;&#x0A;- Original project: &apos;hibernate-crud-exercise&apos;&#x0D;&#x0A;- Destination element: &apos;hibernate-crud-exercise/src/com.luv2code.hibernate.entity&apos;&#x0D;&#x0A;- Original element: &apos;com.luv2code.hibernate.Employee.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src&lt;com.luv2code.hibernate.entity" element1="/src&lt;com.luv2code.hibernate{Employee.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1530443921928" units="1" version="1.0"/>
+</session>

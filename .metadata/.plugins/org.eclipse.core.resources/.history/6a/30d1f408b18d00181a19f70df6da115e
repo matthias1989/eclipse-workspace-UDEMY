@@ -1,0 +1,9 @@
+package com.luv2code.springsecurity.demo.controller;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+@RequestMapping("/register")
+public class RegistrationController {
+
+}

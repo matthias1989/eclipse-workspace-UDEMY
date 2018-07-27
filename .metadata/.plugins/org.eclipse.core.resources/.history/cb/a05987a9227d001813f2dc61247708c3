@@ -1,0 +1,50 @@
+package com.luv2code.hibernate.main;
+
+import java.util.List;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+import com.luv2code.hibernate.entity.Employee;
+
+public class MainApp {
+
+	public static void main(String[] args) {
+		SessionFactory factory = new Configuration().configure("hibernate.cfg.xml").addAnnotatedClass(Employee.class).buildSessionFactory();
+		
+		try {
+			Session session = factory.getCurrentSession();
+			
+			// save new object
+			session.beginTransaction();
+			Employee employee = new Employee("Gunther","Lamperd","Forecast");
+			session.save(employee);
+			session.getTransaction().commit();
+			
+			// get the saved object by its primary key
+			session.beginTransaction();
+			employee = session.get(Employee.class, employee.getId());
+			System.out.println("employee with id " + employee.getId() + " => " + employee);
+			session.getTransaction().commit();
+			
+			// query all objects with company: ITTech
+			session.beginTransaction();
+			List<Employee> employees = session.createQuery("from Employee e where e.company='ITTech'").getResultList();
+			System.out.println("All employees with company: ITTech");
+			for(Employee tempEmployee : employees) {
+				System.out.println(tempEmployee);
+			}
+			session.getTransaction().commit();
+			
+			// delete object by its primary key
+			//session.beginTransaction();
+			
+			
+		}
+		finally{
+			factory.close();
+		}
+	}
+
+}

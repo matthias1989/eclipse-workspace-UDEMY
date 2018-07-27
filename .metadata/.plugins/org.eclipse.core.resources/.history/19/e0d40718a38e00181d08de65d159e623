@@ -1,0 +1,27 @@
+package com.luv2code.jackson.json.demo;
+
+import java.io.File;
+
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+public class Driver {
+
+	public static void main(String[] args) {
+		try {
+			// create object mapper
+			ObjectMapper objectMapper = new ObjectMapper();
+			
+			// read JSON file (data/sample-lite.json) and map to POJO class
+			Student theStudent = objectMapper.readValue(new File("data/sample-lite.json"), Student.class);
+			
+			// print out first name and last name
+			System.out.println(theStudent.getFirstName() + " " +theStudent.getLastName());
+			
+		}
+		catch(Exception exc) {
+			exc.printStackTrace();
+		}
+
+	}
+
+}
