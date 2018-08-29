@@ -59,6 +59,7 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\mattstro\eclipse-workspace-UDEMY\spring-z-crm-rest-with-spring-boot"/>
 			<item value="C:\Users\mattstro\eclipse-workspace"/>
 			<item value="C:\Users\mattstro\eclipse-workspace-UDEMY\web-customer-tracker-aop"/>
 		</list>
@@ -73,21 +74,10 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="com.luv2code.spring_mobile_demo"/>
-			<item value="com.luv2code.spring_security_demo"/>
-			<item value="com.luv2code.web_customer_tracker_maven_app"/>
-			<item value="com.luv2code.mycoolwebapp"/>
-			<item value="com.luv2code.mycoolapp"/>
 		</list>
 		<list key="groupId">
-			<item value="com.luv2code"/>
 		</list>
 		<list key="artifactId">
-			<item value="spring-mobile-demo"/>
-			<item value="spring-security-demo"/>
-			<item value="web-customer-tracker-maven-app"/>
-			<item value="mycoolwebapp"/>
-			<item value="mycoolapp"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -98,7 +88,6 @@
 			<item value="[name]"/>
 		</list>
 		<list key="version">
-			<item value="1.0"/>
 			<item value="0.0.1-SNAPSHOT"/>
 		</list>
 	</section>

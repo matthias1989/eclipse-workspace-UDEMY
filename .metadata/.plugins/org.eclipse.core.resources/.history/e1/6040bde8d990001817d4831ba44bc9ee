@@ -1,9 +1,0 @@
-package com.luv2code.springdemo.rest;
-
-public class CustomerNotFoundException {
-
-	public CustomerNotFoundException() {
-		// TODO Auto-generated constructor stub
-	}
-
-}
